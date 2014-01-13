@@ -1,0 +1,19 @@
+body, html {
+	background-image: url(/include/images/pattern_ss_3.png);
+	color: #FEFEFE;
+}
+
+#logo {
+	background-image: url(/include/images/logo.png);
+	width: 445px;
+	height: 76px;
+}
+
+#header_phone {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#header_right {
+	vertical-align: top;
+}
