@@ -1091,10 +1091,10 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
   display: inline-block;
-  height: 20px;
+  height: 40px;
   padding: 4px 6px;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 20px;
   color: #555555;
   vertical-align: middle;
@@ -1298,7 +1298,7 @@ textarea::-webkit-input-placeholder {
 }
 
 .input-xlarge {
-  width: 270px;
+  width: 445px;
 }
 
 .input-xxlarge {
@@ -3290,6 +3290,7 @@ button.close {
 }
 
 .btn-large {
+  width: 100%;
   padding: 11px 19px;
   font-size: 17.5px;
   -webkit-border-radius: 6px;
@@ -3556,11 +3557,27 @@ input[type="button"].btn-block {
 }
 
 button.btn,
-input[type="submit"].btn {
+input[type="submit"].btn, {
   *padding-top: 3px;
   *padding-bottom: 3px;
 }
-
+/*!CHANGE*/
+button.mybtn,
+input[type="submit"].mybtn {
+  *padding-top: 3px;
+  *padding-bottom: 3px;
+}
+button.mybtn::-moz-focus-inner,
+input[type="submit"].mybtn::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+button.mybtn::-moz-focus-inner,
+input[type="submit"].mybtn::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+/*CHANGE!*/
 button.btn::-moz-focus-inner,
 input[type="submit"].btn::-moz-focus-inner {
   padding: 0;
@@ -3571,6 +3588,7 @@ button.btn.btn-large,
 input[type="submit"].btn.btn-large {
   *padding-top: 7px;
   *padding-bottom: 7px;
+  width: 100%;
 }
 
 button.btn.btn-small,
@@ -4371,8 +4389,8 @@ input[type="submit"].btn.btn-mini {
 
 .navbar-inner {
   min-height: 40px;
-  padding-right: 20px;
-  padding-left: 20px;
+ /* padding-right: 20px;
+  padding-left: 20px;*/
   background-color: #fafafa;
   background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
@@ -4791,6 +4809,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar-inverse .navbar-inner {
+  /*background-color: #221F20;*/
   background-color: #1b1b1b;
   background-image: -moz-linear-gradient(top, #222222, #111111);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111));

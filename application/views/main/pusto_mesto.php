@@ -1,0 +1,1 @@
+<div class="pusto_mesto"><!-- Svyato ne bivaet!! XDXD --></div>
