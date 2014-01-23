@@ -25,14 +25,24 @@
 				<div class="row">
 					<div class="span2">Заходите</div>
 					<div class="span3">
-						<div class="minimap_icon_vk"></div>
+							<script type="text/javascript" src="//yandex.st/share/share.js"
+charset="utf-8"></script>
+<div class="yashare-auto-init" data-yashareL10n="ru"
+ data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir,lj,friendfeed,moikrug,gplus,surfingbird"
+
+></div> 
+
+
+
+
+				<!-- 		<div class="minimap_icon_vk"></div>
 						<div class="minimap_icon_fb"></div>
 						<div class="minimap_icon_tw"></div>
 						<div class="minimap_icon_od"></div>
 						<div class="minimap_icon_in"></div>
 						<div class="minimap_icon_gp"></div>
 						<div class="minimap_icon_yt"></div>
-						<div class="minimap_icon_jj"></div>
+						<div class="minimap_icon_jj"></div> -->
 					</div>
 				</div>
 				<div class="row" id="ss_logo">
