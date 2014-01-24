@@ -1,7 +1,7 @@
 <div class="block_bg" id="header_bg">
-	<div class="container" id="header">
+	<div class="container" id="header"><a name="top"></a>
 		<div class="row-fluid">
-			<div class="span6" id="logo"><img src="/include/images/logo.png" class="img-responsive" alt="Selling Sites"></div>
+			<div class="span6" id="logo"><a href="/"><img src="/include/images/logo.png" class="img-responsive" alt="Selling Sites"></a></div>
 			<div class="span6 pull-right" id="header_right">
 				<div class="row" id="header_phone">+7 (8352) 54 66 54</div>
 				<div class="row pull-right">

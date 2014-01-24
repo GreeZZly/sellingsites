@@ -12,12 +12,12 @@
 					</a>
 					<div class="nav-collapse">
 					    <ul class="nav">
-					      <li id="menu_red_button"><a href="#">Заказать интернет-магазин</a></li>
-					      <li><a href="#">Портфолио</a></li>
-					      <li><a href="#">Отзывы</a></li>
-					      <li><a href="#">Блог</a></li>
-					      <li><a href="#">О нас</a></li>
-					      <li><a href="#">Контакты</a></li>
+					      <li id="menu_red_button"><a href="#order">Заказать интернет-магазин</a></li>
+					      <li><a href="#pholio">Портфолио</a></li>
+					      <li><a href="#thanks">Отзывы</a></li>
+					      <li><a href="#blog">Блог</a></li>
+					      <li><a href="#about">О нас</a></li>
+					      <li><a href="#contacts">Контакты</a></li>
 					    </ul>
 					</div>
 				  </div>

@@ -3,3 +3,4 @@
 		<div class="row">© 2013 ООО "SELLINGSITES.PRO" <a href="#">Политика конфиденциальности</a></div>
 	</div>
 </div>
+<div id="scroller" class="b-top" style="display: none;"><div class="b-top-but"><img src="/include/images/up-button-white.png"></div></div>

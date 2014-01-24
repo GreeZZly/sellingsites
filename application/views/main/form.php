@@ -1,17 +1,18 @@
 <div class="block_bg" id="orderform_bg">
-	<div class="container" id="orderform">
+	<div class="container" id="orderform"><a name="order"></a>
 		<div class="row block_title_red">
 			Хотите продающий сайт? Оформите заявку прямо сейчас!
 		</div>
 		<div class="row">
 			<div class="span6">
-				<form>
+				<?php echo validation_errors(); ?>
+				<form id="order_form" action="index.php/main/order" method="POST">
 				  <fieldset>
-				    <input type="text" class="input-xlarge" placeholder="Ваше имя…">
-				    <input type="text" class="input-xlarge" placeholder="Ваш email адрес…">
-				    <input type="text" class="input-xlarge" placeholder="Ваш номер телефона…">
-				    <input type="text" class="input-xlarge" placeholder="Название вашей компании…">
-				    <button type="submit" class="mybtn btn-large">Заказать интернет-магазин</button>
+				    <input type="text" class="input-xlarge" name = "name" placeholder="Ваше имя…">
+				    <input type="text" class="input-xlarge" name = "email" placeholder="Ваш email адрес…">
+				    <input type="text" class="input-xlarge" name = "phone" placeholder="Ваш номер телефона…">
+				    <input type="text" class="input-xlarge" name = "company" placeholder="Название вашей компании…">
+				    <button type="submit" class="mybtn btn-large" name="submit">Заказать интернет-магазин</button>
 				  </fieldset>
 				</form>
 			</div>

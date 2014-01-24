@@ -1,5 +1,5 @@
 <div class="block_bg" id="pholio_bg">
-	<div class="container" id="pholio">
+	<div class="container" id="pholio"><a name="pholio"></a>
 		<div class="row block_title">Наши работы</div>
 		<ul class="thumbnails">
 		  <li class="span4">

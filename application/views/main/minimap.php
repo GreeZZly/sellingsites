@@ -1,17 +1,17 @@
 <div class="block_bg" id="minimap_bg">
-	<div class="container" id="minimap">
+	<div class="container" id="minimap"><a name="contacts"></a>
 		<div class="row">
 			<div class="span2">
 				<ul class="unstyled" id="minimap_menu">
-					<a href="#"><li>Главная</li></a>
-					<a href="#"><li>Портфолио</li></a>
-					<a href="#"><li>Отзывы</li></a>
-					<a href="#"><li>Блог</li></a>
-					<a href="#"><li>О нас</li></a>
-					<a href="#"><li>Контакты</li></a>
-					<a href="#"><li>Заказать сайт</li></a>
-					<a href="#"><li>Помощь</li></a>
-					<a href="#"><li>F.A.Q.</li></a>
+					<a href="#top"><li>Главная</li></a>
+					<a href="#pholio"><li>Портфолио</li></a>
+					<a href="#thanks"><li>Отзывы</li></a>
+					<a href="#blog"><li>Блог</li></a>
+					<a href="#about"><li>О нас</li></a>
+					<a href="#contacts"><li>Контакты</li></a>
+					<a href="#order"><li>Заказать сайт</li></a>
+					<a href="#help"><li>Помощь</li></a>
+					<!-- <a href="#"><li>F.A.Q.</li></a> -->
 				</ul>
 			</div>
 			<div class="span5">
@@ -23,7 +23,7 @@
 					<div class="span3">+7 (8352) 58-77-48</div>
 				</div>
 				<div class="row">
-					<div class="span2">Заходите</div>
+					<div class="span2">Делитесь</div>
 					<div class="span3">
 							<script type="text/javascript" src="//yandex.st/share/share.js"
 charset="utf-8"></script>

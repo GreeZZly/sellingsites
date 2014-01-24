@@ -499,8 +499,33 @@ font-size: 38px;
 
 #minimap_menu a {
 	color: #e6e6e6;
+	  -webkit-transition: color 0.2s linear;
+     -moz-transition: color 0.2s linear;
+       -o-transition: color 0.2s linear;
+          transition: color 0.2s linear;
 }
 
 #minimap_menu a:hover {
-	color: #C1C1C1;
+	color: #A3A3A3;
+	/*text-shadow:0 0 5px #e6e6e6;*/
+	text-decoration: none;
+
+}
+
+.b-top {
+	z-index:2600;
+	position:fixed;
+	bottom:100px;
+	right: 20px; 
+	opacity: 0.3;
+	 -webkit-transition: opacity 0.2s linear;
+     -moz-transition: opacity 0.2s linear;
+       -o-transition: opacity 0.2s linear;
+          transition: opacity 0.2s linear;
+}
+
+.b-top:hover {
+	opacity:1;
+	filter:alpha(opacity=100);
+	cursor:pointer;
 }

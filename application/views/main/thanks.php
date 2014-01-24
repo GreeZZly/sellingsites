@@ -1,6 +1,6 @@
 <div class="block_bg" id="thanks_bg">
 	<div class="container" id="thanks">
-		<div class="row block_title">Нас благодарят</div>
+		<div class="row block_title">Нас благодарят</div><a name="thanks"></a>
 		<div class="row thanks_rows">
 			<div class="span5"><img src="/include/images/11.png"></div>
 			<div class="span7">

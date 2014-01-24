@@ -1,5 +1,5 @@
 <div class="block_bg" id="blog_bg">
-	<div class="container" id="blog">
+	<div class="container" id="blog"><a name="blog"></a>
 		<div class="row block_title_red">
 			Блог
 		</div>
