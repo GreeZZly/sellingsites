@@ -12,13 +12,16 @@
 				    <input type="text" class="input-xlarge" name = "email" placeholder="Ваш email адрес…">
 				    <input type="text" class="input-xlarge" name = "phone" placeholder="Ваш номер телефона…">
 				    <input type="text" class="input-xlarge" name = "company" placeholder="Название вашей компании…">
-				    <button type="submit" class="mybtn btn-large" name="submit">Заказать интернет-магазин</button>
+				    <button  class="mybtn btn-large" name="submit"  id="form_btn">Заказать интернет-магазин</button>
 				  </fieldset>
 				</form>
+
+
 			</div>
 			<div class="span6" id="orderform_text">
 				Для того, чтобы заказать создание сайта под заказвы можете заполнить эту форму или просто позвоните нам. После того, как вы оставите заявку, наш менеджер свяжется с вами для получения информации  и расчета сметы по созданию вашего сайта.
 			</div>
+			
 		</div>
 	</div>
 </div>

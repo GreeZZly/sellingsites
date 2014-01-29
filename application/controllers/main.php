@@ -1,4 +1,4 @@
-﻿<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Main extends CI_Controller {
 
@@ -6,6 +6,7 @@ class Main extends CI_Controller {
 	{
 		$this->load->helper(array('form', 'url'));
 		$this->load->library('form_validation');
+		
 
 		$this->load->view('main/htmlheader');
 		$this->load->view('main/header');
@@ -29,6 +30,7 @@ class Main extends CI_Controller {
 	public function order() {
 		$this->load->helper(array('form', 'url'));
 		$this->load->library('email');
+
 		$this->load->library('form_validation');
 
 		$config['mailtype'] = 'html';
@@ -52,14 +54,37 @@ class Main extends CI_Controller {
 							'company' => $this->input->post('company')
 				);
 			// print_r($data);
+			$config['mailtype'] = 'text';
+			$this->email->initialize($config);
+			
 			$this->email->clear();
 			$this->email->from('sellingsites');
-			$this->email->to('egor@sellingsites.pro'); 	
+			$this->email->to('egor@sellingsites.pro, semen@sellingsites.pro'); 	
 			$this->email->subject('Новый заказ!');
 			$this->email->message("Поступил заказ от \nИмя: ".$data['name']."\nEmail: ".$data['email']."\nТелефон: ".$data['phone']."\nКомпания: ".$data['company']."");	
 
 			$this->email->send();
+			$this->load->view('main/htmlheader');
 			$this->load->view('main/formsuccess');
+			$this->load->view('main/header');
+			$this->load->view('main/navbar');
+			$this->load->view('main/pusto_mesto');
+			$this->load->view('main/hero');
+			$this->load->view('main/clients');
+			$this->load->view('main/why');
+			$this->load->view('main/masterclass');
+			$this->load->view('main/pholio');
+			$this->load->view('main/thanks');
+			$this->load->view('main/3steps');
+			$this->load->view('main/form');
+			$this->load->view('main/partners');
+			$this->load->view('main/blog');
+			$this->load->view('main/minimap');
+
+			$this->load->view('main/footer');
+			$this->load->view('main/htmlfooter');
+			// redirect('/', 'refresh');
+
 			// echo $this->email->print_debugger();
 		}
 	}
