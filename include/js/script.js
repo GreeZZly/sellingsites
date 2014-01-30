@@ -74,7 +74,7 @@ $(document).ready(function(){
     });
  
 });
-
+//  SLIDER
 $(document).ready(function(){
   $('.thumbnailss').bxSlider({
     slideWidth: 300,
@@ -83,6 +83,7 @@ $(document).ready(function(){
     moveSlides: 1,
     slideMargin: 10
   });
+  // FORM SUCCESS WINDOW
       var suck_l = $(window).width()/2-200;
       var suck_t = $(window).height()/2-$('#success_block').height()/2;
       console.log(suck_l, suck_t);
