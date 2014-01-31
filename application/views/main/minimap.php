@@ -25,12 +25,8 @@
 				<div class="row">
 					<div class="span2">Делитесь</div>
 					<div class="span3">
-							<script type="text/javascript" src="//yandex.st/share/share.js"
-charset="utf-8"></script>
-<div class="yashare-auto-init" data-yashareL10n="ru"
- data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir,lj,friendfeed,moikrug,gplus,surfingbird"
-
-></div> 
+							<script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+							<div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir,lj,friendfeed,moikrug,gplus,surfingbird"></div> 
 
 
 
@@ -48,6 +44,9 @@ charset="utf-8"></script>
 				<div class="row" id="ss_logo">
 					<img src="/include/images/16.png">
 				</div>
+				<div class="row mails">Если есть вопросы, пишите:</div>
+				<div class="row mails"><a href="mailto:egor@sellingsites.pro">egor@sellingsites.pro</a></div>
+				<div class="row mails"><a href="mailto:semen@sellingsites.pro">semen@sellingsites.pro</a></div>
 			</div>
 		</div>
 	</div>

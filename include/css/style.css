@@ -487,7 +487,7 @@ font-size: 38px;
 }
 #ss_logo img {
 	display: block;
-	margin: 50px auto;
+	margin: 30px 20px 30px;
 }
 #footer_bg {
 	background-color: #221F20;
@@ -584,4 +584,10 @@ font-size: 38px;
 	background-color: #000;
 	opacity: 0.7;
 	z-index: 9999;
+}
+
+.mails {
+	font-size: 16px;
+	font-weight: normal;
+	margin-left: 1px;
 }

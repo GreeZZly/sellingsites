@@ -14,11 +14,11 @@
 		</div>
 		<div class="row masterclass_rows">
 			<div class="span6">
-				<iframe width="470" height="275" src="//www.youtube.com/embed/FKfVkTrqSKg" frameborder="0" allowfullscreen></iframe>
+				<iframe width="470" height="275" src="//www.youtube.com/embed/uFL-Epr4Uvk" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="span6 mclass_info">
 				<div class="masterclass_auth">Егор Косолапов и Семен Зуев</div>
-				<div>"Приглашаем на семинар по увеличению продаж в интернете"</div>
+				<div>"Основатели компании на sales-конференции. Чебоксары-2013."</div>
 			</div>
 		</div>
 	</div>
