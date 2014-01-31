@@ -6,9 +6,23 @@ class Main extends CI_Controller {
 	{
 		$this->load->helper(array('form', 'url', 'rss'));
 		$this->load->library('form_validation');
-		
+		$this->load->helper('rss');
 
-		$this->load->view('main/htmlheader');
+		$data['feeds'] = RSS_Read("http://www.semenzuev.com/feeds/posts/default?alt=rss");
+		
+		// foreach ($data['feeds'] as $key => $value) {
+		// 	// 'Wed, 15 Jan 2014 14:37:00 +0000'
+		// 	//$value['new_date']  =implode(" ",sscanf($value['date'], "%d %s %d"));
+
+		// 	list($dayw,$day,$mon,$year) = sscanf($value['date'], "%s %d %s %d");
+		// 	$value['date'] = $day." ".$mon." ".$year;
+		// 	echo $value['date'];
+		// }
+		
+		//print_r($data['feeds']);
+
+
+		$this->load->view('main/htmlheader', $data);
 		$this->load->view('main/header');
 		$this->load->view('main/navbar');
 		$this->load->view('main/pusto_mesto');
@@ -29,11 +43,11 @@ class Main extends CI_Controller {
 	}
 
 	public function test() {
-			$this->load->helper('rss');
+		$this->load->helper('rss');
 
 		$feeds = RSS_Read("http://www.semenzuev.com/feeds/posts/default?alt=rss");
-		for($i=0;$i<3;$i++)
-			print_r($feeds[$i]);	
+		// for($i=0;$i<3;$i++)
+		// 	print_r($feeds[$i]);	
 		// foreach ($feeds as $feed){
 		//     print_r($feed); // вывод содержимого массива, каждой записи
 		// }

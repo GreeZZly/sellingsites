@@ -1,5 +1,5 @@
 <div class="block_bg" id="why_bg">
-	<div class="container" id="why"><a name="about"></a>
+	<div class="container" id="why"><a name="why"></a>
 		<div class="row" id="why_title">
 			<div class="span12">Почему нас выбирают?</div>
 		</div>

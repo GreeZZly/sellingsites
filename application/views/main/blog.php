@@ -3,29 +3,28 @@
 		<div class="row block_title_red">
 			Блог
 		</div>
-		<div class="row blog_item">
-			<div class="row blog_item_border"></div>
-			<div class="span2"><img src="/include/images/foto1.jpg"></div>
-			<div class="span10">
-				<div class="row blog_item_date"><i>21 ноября 2013 года</i></div>
-				<div class="row blog_item_title">Ведем дискуссии по разработке интернет-магазинов)</div>
-			</div>
-		</div>
-		<div class="row blog_item">
-			<div class="row blog_item_border"></div>
-			<div class="span2"><img src="/include/images/foto1.jpg"></div>
-			<div class="span10">
-				<div class="row blog_item_date"><i>21 ноября 2013 года</i></div>
-				<div class="row blog_item_title">Ведем дискуссии по разработке интернет-магазинов)</div>
-			</div>
-		</div>
-		<div class="row blog_item">
-			<div class="row blog_item_border"></div>
-			<div class="span2"><img src="/include/images/foto1.jpg"></div>
-			<div class="span10">
-				<div class="row blog_item_date"><i>21 ноября 2013 года</i></div>
-				<div class="row blog_item_title">Ведем дискуссии по разработке интернет-магазинов)</div>
-			</div>
-		</div>
+
+		<?php	
+			$rus_mon=array('Jan'=>'января',
+							'Feb'=>'февраля',
+							'Mar'=>'марта',
+							'Apr'=>'апреля',
+							'May'=>'мая',
+							'Jun'=>'июня',
+							'Jul'=>'июля',
+							'Aug'=>'августа',
+							'Sep'=>'сентября',
+							'Oct'=>'октября',
+							'Nov'=>'ноября',
+							'Dec'=>'декабря'
+				);
+			for($i=0;$i<3;$i++) {
+			// print_r($feeds[$i]);	
+			list($dayw,$day,$mon,$year) = sscanf($feeds[$i]['date'], "%s %d %s %d");
+			$feeds[$i]['date'] = $day." ".$rus_mon[$mon]." ".$year;	
+			echo "<div class='row blog_item'><div class='row blog_item_border'></div><div class='span12'><div class='row blog_item_date'><i>".$feeds[$i]['date']."</i></div><div class='row blog_item_title'><a href='".$feeds[$i]['link']."' target='_blank'>".$feeds[$i]['title']."</a></div></div></div>";
+		}
+			?>
+		
 	</div>
 </div>

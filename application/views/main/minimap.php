@@ -1,5 +1,5 @@
 <div class="block_bg" id="minimap_bg">
-	<div class="container" id="minimap"><a name="contacts"></a>
+	<div class="container" id="minimap"><a name="minimap"></a>
 		<div class="row">
 			<div class="span2">
 				<ul class="unstyled" id="minimap_menu">
@@ -7,9 +7,9 @@
 					<a href="#pholio"><li>Портфолио</li></a>
 					<a href="#thanks"><li>Отзывы</li></a>
 					<a href="#blog"><li>Блог</li></a>
-					<a href="#about"><li>О нас</li></a>
-					<a href="#contacts"><li>Контакты</li></a>
-					<a href="#order"><li>Заказать сайт</li></a>
+					<a href="#why"><li>О нас</li></a>
+					<a href="#minimap"><li>Контакты</li></a>
+					<a href="#orderform"><li>Заказать сайт</li></a>
 					<a href="#help"><li>Помощь</li></a>
 					<!-- <a href="#"><li>F.A.Q.</li></a> -->
 				</ul>

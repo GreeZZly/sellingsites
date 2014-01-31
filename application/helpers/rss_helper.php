@@ -17,14 +17,14 @@ if ( ! function_exists('RSS_Tags'))
 			$tnl = $tnl->item(0);
 			$date = $tnl->firstChild->textContent;		
 
-			$tnl = $item->getElementsByTagName("description");
-			$tnl = $tnl->item(0);
-			$description = $tnl->firstChild->textContent;
+			// $tnl = $item->getElementsByTagName("description");
+			// $tnl = $tnl->item(0);
+			// $description = $tnl->firstChild->textContent;
 
 			$y["title"] = $title;
 			$y["link"] = $link;
 			$y["date"] = $date;		
-			$y["description"] = $description;
+			// $y["description"] = $description;
 
 			return $y;
 	}
