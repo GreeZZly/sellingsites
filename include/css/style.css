@@ -15,17 +15,18 @@ body, html {
 	/*font-family: 'Roboto Condensed', sans-serif;*/
 }
 
-/*#logo {
-	background-image: url(/include/images/logo.png);
-	width: 445px;
-	height: 76px;
-}*/
+#logo img{
+	/*background-image: url(/include/images/logo.png);*/
+	width: 460px;
+	/*height: 76px;*/
+}
 
 #header_phone {
-	font-size: 27px;
+	font-size: 30px;
 	line-height: 38px;
 	/*font-weight: bold;*/
 	text-align: right;
+	clear:both;
 	
 }
 
@@ -36,6 +37,15 @@ body, html {
 	padding: 60px 0;
 	font-family: Days;
 }
+.header_talk {
+	/*text-align: right;*/
+	/*padding-right: 132px;*/
+	width:276px;
+	float: right;
+	padding-top: 6px;
+	/*clear: both;*/
+}
+
 [class*="icon"] {
 	display: inline-block;
 	width: 14px;

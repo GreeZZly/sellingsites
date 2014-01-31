@@ -4,7 +4,7 @@ class Main extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->helper(array('form', 'url'));
+		$this->load->helper(array('form', 'url', 'rss'));
 		$this->load->library('form_validation');
 		
 
@@ -26,6 +26,17 @@ class Main extends CI_Controller {
 
 		$this->load->view('main/footer');
 		$this->load->view('main/htmlfooter');
+	}
+
+	public function test() {
+			$this->load->helper('rss');
+
+		$feeds = RSS_Read("http://www.semenzuev.com/feeds/posts/default?alt=rss");
+		for($i=0;$i<3;$i++)
+			print_r($feeds[$i]);	
+		// foreach ($feeds as $feed){
+		//     print_r($feed); // вывод содержимого массива, каждой записи
+		// }
 	}
 	public function order() {
 		$this->load->helper(array('form', 'url'));
