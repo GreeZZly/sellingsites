@@ -1,11 +1,11 @@
 <div class="block_bg" id="why_bg">
 	<div class="container" id="why"><a name="why"></a>
-		<div class="row" id="why_title">
-			<div class="span12">Почему нас выбирают?</div>
+		<div class="row-fluid" id="why_title">
+			<div class="span12">В чем успех формулы наших интернет магазинов?</div>
 		</div>
 		<div class="row">
 			<div class="span12">
-				<img src="/include/images/why.png">
+				<img src="/include/images/molecula.png">
 			</div>
 		</div>
 	</div>

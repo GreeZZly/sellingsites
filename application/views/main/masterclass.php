@@ -1,7 +1,7 @@
 <div class="block_bg" id="masterclass_bg">
 	<div class="container" id="masterclass">
 		<div class="row block_title">
-			Наши мастер-классы
+			Как можно увеличить продажи?
 		</div>
 		<div class="row masterclass_rows">
 			<div class="span6">

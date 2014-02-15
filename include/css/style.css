@@ -190,9 +190,10 @@ body, html {
 #why_bg {
 	border-top: 1px solid #4D2D2F;
 	padding: 20px 0;
+	background-color: #FFFFFF;
 }
 #why_title {
-	color: #CC0000;
+	color: #000;
 	font-weight: bold;
 	font-size: 46px;
 	text-align: center;
@@ -200,10 +201,12 @@ body, html {
 }
 
 #masterclass_bg {
-	background-color: #221F20;
+	background-color: #fff;
 	padding: 20px 0;
 }
-
+#masterclass_bg  {
+	color: black;
+}
 #masterclass_title {
 	font-size: 38px;
 	font-weight: bold;
@@ -273,8 +276,9 @@ font-size: 38px;
 }
 
 #orderform_bg {
-	background-color: #221F20;
+	background-color: #E6E6E6;
 	padding: 20px 0;
+
 }
 
 .block_title_red {
@@ -286,7 +290,10 @@ font-size: 38px;
 	line-height: 48px;
 }
 
-
+#pholio_bg {
+	background-color: #E6E6E6;
+	color: black;
+}
 #steps3 img {
 	margin-bottom: 40px;
 }
@@ -390,7 +397,7 @@ font-size: 38px;
 	font-size: 26px;
 	line-height: 36px;
 	font-family: 'Roboto', sans-serif; 
-	color: #e6e6e6;
+	color: #373435;
 }
 
 .partners_img {
@@ -406,7 +413,15 @@ font-size: 38px;
 }
 
 #blog_bg {
-	background-color: #221F20;
+	background-color: #E6E6E6;
+}
+
+#blog_title {
+	font-size: 38px;
+	font-weight: bold;
+	margin: 30px 0;
+	color: black;
+	text-align: center;
 }
 
 .blog_item_border {
@@ -555,7 +570,7 @@ font-size: 38px;
 }
 
 .slide img:hover {
-	box-shadow: 0 0 10px #fff;
+	box-shadow: 0 0 5px #00A8DB;
 }
 
 
