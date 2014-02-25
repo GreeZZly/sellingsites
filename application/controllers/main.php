@@ -25,13 +25,14 @@ class Main extends CI_Controller {
 		$this->load->view('main/htmlheader', $data);
 		$this->load->view('main/header');
 		$this->load->view('main/navbar');
-		$this->load->view('main/pusto_mesto');
+		// $this->load->view('main/pusto_mesto');
 		$this->load->view('main/hero');
-		$this->load->view('main/clients');
+		// $this->load->view('main/clients');
 		$this->load->view('main/why');
 		$this->load->view('main/masterclass');
 		$this->load->view('main/pholio');
 		$this->load->view('main/thanks');
+		$this->load->view('main/price');
 		$this->load->view('main/3steps');
 		$this->load->view('main/form');
 		$this->load->view('main/partners');

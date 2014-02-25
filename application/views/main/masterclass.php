@@ -1,25 +1,18 @@
 <div class="block_bg" id="masterclass_bg">
 	<div class="container" id="masterclass">
-		<div class="row block_title">
-			Как можно увеличить продажи?
+		<div class="row-fluid block_title">
+			Какие интернет-магазины "продающие"?
 		</div>
-		<div class="row masterclass_rows">
-			<div class="span6">
-				<iframe width="470" height="275" src="//www.youtube.com/embed/ZARChp5mQm0" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="span6 mclass_info">
-				<div class="masterclass_auth">Евгений Милославский</div>
-				<div>"Увеличение продаж без дополнительных затрат"</div>
+		<div class="row-fluid" id="look">
+			Смотрите видео &darr;	
+		</div>
+		<div class="row-fluid masterclass_rows">
+			<div id="youtube">
+				<iframe width="640" height="480" src="//www.youtube.com/embed/uFL-Epr4Uvk" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
-		<div class="row masterclass_rows">
-			<div class="span6">
-				<iframe width="470" height="275" src="//www.youtube.com/embed/uFL-Epr4Uvk" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="span6 mclass_info">
-				<div class="masterclass_auth">Егор Косолапов и Семен Зуев</div>
-				<div>"Основатели компании на sales-конференции. Чебоксары-2013."</div>
-			</div>
+		<div class="row-fluid">
+			<a href="#orderform"><div class="buyBtn">Заказать интернет-магазин</div></a>
 		</div>
 	</div>
 </div>
