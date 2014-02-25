@@ -33,7 +33,7 @@ class Main extends CI_Controller {
 		$this->load->view('main/pholio');
 		$this->load->view('main/thanks');
 		$this->load->view('main/price');
-		$this->load->view('main/3steps');
+		// $this->load->view('main/3steps');
 		$this->load->view('main/form');
 		$this->load->view('main/partners');
 		$this->load->view('main/blog');
