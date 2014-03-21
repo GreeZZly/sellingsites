@@ -12,7 +12,7 @@
 				    <input type="text" class="input-xlarge" name = "email" placeholder="Ваш email адрес…">
 				    <input type="text" class="input-xlarge" name = "phone" placeholder="Ваш номер телефона…">
 				    <input type="text" class="input-xlarge" name = "company" placeholder="Название вашей компании…">
-				    <button  class="mybtn btn-large" name="submit"  id="form_btn">Заказать интернет-магазин</button>
+				    <button  class="mybtn btn-large" name="submit"  id="form_btn">Заказать продающий сайт</button>
 				  </fieldset>
 				</form>
 

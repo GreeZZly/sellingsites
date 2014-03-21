@@ -12,7 +12,7 @@
 					</a>
 					<div class="nav-collapse">
 					    <ul class="nav">
-					      <li id="menu_red_button"><a href="#orderform">Заказать интернет-магазин</a></li>
+					      <li id="menu_red_button"><a href="#orderform">Заказать продающий сайт</a></li>
 					      <li><a href="#pholio">Портфолио</a></li>
 					      <li><a href="#thanks">Отзывы</a></li>
 					      <li><a href="#blog">Блог</a></li>

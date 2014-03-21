@@ -12,7 +12,7 @@
 			</div>
 		</div>
 		<div class="row-fluid">
-			<a href="#orderform"><div class="buyBtn">Заказать интернет-магазин</div></a>
+			<a href="#orderform"><div class="buyBtn">Заказать продающий сайт</div></a>
 		</div>
 	</div>
 </div>
