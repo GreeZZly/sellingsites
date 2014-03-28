@@ -35,17 +35,22 @@ if ( ! function_exists('RSS_Read'))
 	function RSS_Read($url)
 	{
 		$doc  = new DOMDocument();
-		$doc->load($url);
+		try{
+			$doc->load($url);
 
-		$items = $doc->getElementsByTagName("item");    
+			$items = $doc->getElementsByTagName("item");    
 
-		$RSS_Content = array();
+			$RSS_Content = array();
 
-		foreach($items as $item)
-		{
-			$y = RSS_Tags($item);	// get description of article, type 1
-			array_push($RSS_Content, $y);
-		} 
-	    return $RSS_Content;	
+			foreach($items as $item)
+			{
+				$y = RSS_Tags($item);	// get description of article, type 1
+				array_push($RSS_Content, $y);
+			} 
+		    return $RSS_Content;
+		}
+		catch(Exception $e)	{
+			return array();
+		}
 	}
 }

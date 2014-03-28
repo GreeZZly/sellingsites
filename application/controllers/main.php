@@ -7,8 +7,30 @@ class Main extends CI_Controller {
 		$this->load->helper(array('form', 'url', 'rss'));
 		$this->load->library('form_validation');
 		$this->load->helper('rss');
+		$data['feeds']=array();
+		try{
+			$data['feeds'] = RSS_Read("http://www.semenzuev.com/feeds/posts/default?alt=rss");
+		}
+		catch(Exception $e){
+			$data['feeds'] = array(
+								    array(
+								            "title" => "Что означает Landing page?",
+								            "link" => "http://www.semenzuev.com/2014/03/leading-page.html",
+								            "date" => "Mon, 24 Mar 2014 14:19:00 +0000"
+								        ),
+								    array(
+								            "title" => "Как использовать твиттер?",
+								            "link" => "http://www.semenzuev.com/2014/01/blog-post_30.html",
+								            "date" => "Thu, 30 Jan 2014 10:46:00 +0000"
+								        ),
+								    array(
+								            "title" => "5 советов для выживания в 'джунглях' интернета?!",
+								            "link" => "http://www.semenzuev.com/2014/01/5.html",
+								            "date" => "Tue, 21 Jan 2014 07:16:00 +0000"
+								        )
+				);
 
-		$data['feeds'] = RSS_Read("http://www.semenzuev.com/feeds/posts/default?alt=rss");
+		}
 		
 		// foreach ($data['feeds'] as $key => $value) {
 		// 	// 'Wed, 15 Jan 2014 14:37:00 +0000'
@@ -116,3 +138,4 @@ class Main extends CI_Controller {
 	}
 	
 }
+
