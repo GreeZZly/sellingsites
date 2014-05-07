@@ -112,6 +112,15 @@ class Main extends CI_Controller {
 			$this->email->message("Поступил заказ от \nИмя: ".$data['name']."\nEmail: ".$data['email']."\nТелефон: ".$data['phone']."\nКомпания: ".$data['company']."");	
 
 			$this->email->send();
+
+			$this->email->clear();
+			$this->email->from('sellingsites');
+			$this->email->to($data['email']); 	
+			$this->email->subject('SellingSites.PRO');
+			$this->email->message("Приветствуем вас, ".$data['name']."\nСпасибо, что проявили интерес к нашей компании.\nМы уверены, что разработка продающего сайта и последующая его реклама силами наших специалистов позволит Вам получать больше новых клиентов.\nНаш менеджер свяжется с Вами в течение рабочего дня, чтобы обсудить детали.\n\nДо связи!\n\nКоманда SELLINGSITES.PRO");	
+
+			$this->email->send();
+
 			$this->load->view('main/htmlheader');
 			$this->load->view('main/formsuccess');
 			$this->load->view('main/header');

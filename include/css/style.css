@@ -146,7 +146,7 @@ body, html {
 #hero_bg {
 	/*background-color: #61708F;*/
 	background-color: #495970;
-	background-image: url(/include/images/ss-hero_2.jpg);
+	background-image: url(/include/images/ss-hero-3.jpg);
 	background-position: center;
 	/*background-color: #4C535B;*/
 }
@@ -679,3 +679,12 @@ font-size: 30px;
 	text-shadow:0 0 10px #fff;
 }
 
+#hero div {
+	font-size: 80px;
+	text-align: right;
+	line-height: 125px;
+	letter-spacing: 1px;
+}
+.error {
+	color: red;
+}

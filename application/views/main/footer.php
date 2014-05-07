@@ -1,6 +1,6 @@
 <div class="block_bg" id="footer_bg">
 	<div class="container" id="footer">
-		<div class="row">© 2013 ООО "SELLINGSITES.PRO" <a href="#">Политика конфиденциальности</a></div>
+		<div class="row">© 2014 ООО "SELLINGSITES.PRO" <a href="#">Политика конфиденциальности</a></div>
 	</div>
 </div>
 <!-- Yandex.Metrika counter -->
@@ -30,4 +30,4 @@
 </script>
 <noscript><div><img src="//mc.yandex.ru/watch/23797735" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-<div id="scroller" class="b-top" style="display: none;"><div class="b-top-but"><img src="/include/images/up-button-white.png"></div></div>
+<div id="scroller" class="b-top" style="display: none;"><div class="b-top-but"><img src="/include/images/up-button.png"></div></div>
