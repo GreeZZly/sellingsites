@@ -45,8 +45,8 @@
 					<img src="/include/images/16.png">
 				</div>
 				<div class="row mails">Если есть вопросы, пишите:</div>
-				<div class="row mails"><a href="mailto:egor@sellingsites.pro">egor@sellingsites.pro</a></div>
-				<div class="row mails"><a href="mailto:semen@sellingsites.pro">semen@sellingsites.pro</a></div>
+				<div class="row mails"><a href="mailto:info@sellingsites.pro">info@sellingsites.pro</a></div>
+				<!-- <div class="row mails"><a href="mailto:semen@sellingsites.pro">semen@sellingsites.pro</a></div> -->
 			</div>
 		</div>
 	</div>
