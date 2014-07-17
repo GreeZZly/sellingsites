@@ -12,7 +12,7 @@
 
 		</div>
 		<div class="row-fluid">В ПОДАРОК</div>
-		<div class="row-fluid">до 30 июня</div>
+		<div class="row-fluid">до 31 июля</div>
 	</div>
 </div>
 

@@ -32,6 +32,46 @@
 		      <img src="/include/images/works/small/triko.png" alt="">
 		    </a>
 		    </div>
+		    <div class="slide">
+		    <a href="/include/images/works/alumin.jpg" class="zoom">
+		      <img src="/include/images/works/small/min_0000_alumin.jpg" alt="">
+		    </a>
+		    </div>
+		    <div class="slide">
+		    <a href="/include/images/works/apteka.jpg" class="zoom">
+		      <img src="/include/images/works/small/min_0002_apteka.jpg" alt="">
+		    </a>
+		    </div>
+		    <div class="slide">
+		    <a href="/include/images/works/findvor.jpg" class="zoom">
+		      <img src="/include/images/works/small/min_0004_findvor.jpg" alt="">
+		    </a>
+		    </div>
+		    <div class="slide">
+		    <a href="/include/images/works/melnichenko.jpg" class="zoom">
+		      <img src="/include/images/works/small/min_0000_meln.jpg" alt="">
+		    </a>
+		    </div>
+		    <div class="slide">
+		    <a href="/include/images/works/nedvizhimost.jpg" class="zoom">
+		      <img src="/include/images/works/small/min_0008_nedvizhimost.jpg" alt="">
+		    </a>
+		    </div>
+		    <div class="slide">
+		    <a href="/include/images/works/pechi.jpg" class="zoom">
+		      <img src="/include/images/works/small/min_0004_pechi.jpg" alt="">
+		    </a>
+		    </div>
+		    <div class="slide">
+		    <a href="/include/images/works/tis.jpg" class="zoom">
+		      <img src="/include/images/works/small/min_0002_tis.jpg" alt="">
+		    </a>
+		    </div>
+		    <div class="slide">
+		    <a href="/include/images/works/zemlya.jpg" class="zoom">
+		      <img src="/include/images/works/small/min_0014_zemlya.jpg" alt="">
+		    </a>
+		    </div>
 		
 		 <!--  
 		   <li class="span4">
